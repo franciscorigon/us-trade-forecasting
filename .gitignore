@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Raw data — not versioned (run notebook 01 to regenerate)
+data/raw/*.csv
+data/raw/*.xlsx
+data/raw/*.parquet
+data/external/*.csv
+data/external/*.xlsx
+!data/raw/.gitkeep
+!data/external/.gitkeep
+
+# Credentials — never commit
+.env
+.env.local
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# ── Personal workflow — not for public repo ───────────────────────────────────
+.claude/
+CLAUDE.md
+tcc/
+docs/
+tcc2-central-sync.md
+tcc2-checklist.md
+scripts/
+QUICKSTART.md
